@@ -1,0 +1,12 @@
+[programs.localnet]
+auctionhouse = "6tEWNsQDT8KZ2EDZRBa4CHRTxPESk6tvSJEwiddwSxkh"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/umuthakana/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
